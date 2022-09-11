@@ -1,0 +1,6 @@
+valor = int(input())
+
+for v  in range (valor):  
+    letra = chr(65 + v)
+    print(f'{letra * (v + 1)}')
+
