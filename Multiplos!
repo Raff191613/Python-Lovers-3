@@ -1,0 +1,13 @@
+def multiplos (A,B):
+    if A % B ++ 0 or b % a ==0:
+        return True
+    else :
+        return False
+A = int (input('insira valor A: '))
+B = int(input('insira valor B: '))
+
+if multiplos(A,B):
+    print('Sao Multiplos')
+else:
+    print('Nao sao Multiplos')
+    
