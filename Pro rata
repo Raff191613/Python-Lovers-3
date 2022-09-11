@@ -1,0 +1,22 @@
+valor_do_pacote1 = float(input('digite o valor do pacote 1: '))
+                        
+valor_do_pacote2 = float(input('digite o valor do pacote 2: '))
+
+dias_mes = int(input('data de vencimento: '))
+               
+dias_pacote1 = int(input('dias do pacote 1: '))
+                   
+dias_pacote2 = int(input('dias do pacote 2: '))
+
+dias_mes1 = valor_do_pacote1 // dias_mes
+
+dias_mes2 = valor_do_pacote2 // dias_mes
+
+total1 = dias_mes1 * dias_pacote1
+
+total2 = dias_mes2 * dias_pacote2
+   
+valor = total1 + total2
+               
+print('valor cobrado deste mes é de: ', valor)
+                       
