@@ -1,0 +1,14 @@
+doação = float(input(''))
+valor = 2.50
+doacaosoma = 0
+while True:
+    doacaosoma += doação
+
+
+
+
+    doação = float(input())
+    if doação == -1:
+        break
+print(f'''VC$ {doacaosoma:.2f}
+R$ {doacaosoma * valor:.2f}''')
