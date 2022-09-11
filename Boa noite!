@@ -1,0 +1,15 @@
+x = 100
+y = 200
+i = 0
+
+i = 0
+k = 0
+while i < x: 
+    
+    j = 0
+    while j < y:
+      
+        j += 1
+    i += 1
+    print(f'{i} {j}')
+print('Boa Noite')
